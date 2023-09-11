@@ -1,0 +1,15 @@
+.movie-image {
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 180px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 20px lightgrey;
+    transition: 1s;
+}
+
+.movie-box:hover {
+    box-shadow: 2px px 20px black;
+    transition: ease-in-out;
+}

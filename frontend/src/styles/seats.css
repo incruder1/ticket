@@ -1,0 +1,146 @@
+.seat {
+    font-size: 9px;
+    width: 15px;
+    height: 15px;
+    margin: 3px;
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+.booked-seat {
+    font-size: 9px;
+    width: 15px;
+    height: 15px;
+    margin: 3px;
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: green;
+}
+
+.each-seat:nth-of-type(5) {
+    margin-right: 10px;
+}
+
+.each-seat:nth-of-type(15) {
+    margin-right: 10px;
+}
+
+.each-seat:nth-of-type(25) {
+    margin-right: 10px;
+}
+
+.each-seat:nth-of-type(35) {
+    margin-right: 10px;
+}
+
+.each-seat:nth-of-type(45) {
+    margin-right: 10px;
+}
+
+.each-seat:nth-of-type(55) {
+    margin-right: 10px;
+}
+
+.each-seat:nth-of-type(65) {
+    margin-right: 10px;
+}
+
+.each-seat:nth-of-type(75) {
+    margin-right: 10px;
+}
+
+.each-seat:nth-of-type(85) {
+    margin-right: 10px;
+}
+
+.each-seat:nth-of-type(95) {
+    margin-right: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+.rows {
+    padding-right: 20px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.seat-select {
+    display: none;
+}
+
+.seat-select:checked+.seat {
+    background-color: red;
+}
+
+.booking-section {
+    background-color: grey;
+    width: 360px;
+    display: flex;
+    border-radius: 7px;
+    align-content: center;
+    justify-content: center;
+
+}
+
+
+.seat:active {
+    background-color: white;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .seat {
+        font-size: 8px;
+        width: 10px;
+        height: 10px;
+        margin: 3px;
+        display: flex;
+        padding: 9px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        background-color: white;
+
+    }
+
+    .booked-seat {
+        font-size: 8px;
+        width: 10px;
+        height: 10px;
+        margin: 3px;
+        display: flex;
+        padding: 9px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        background-color: green;
+    }
+
+    .booking-section {
+        background-color: grey;
+        width: 280px;
+        display: flex;
+        border-radius: 7px;
+        align-content: center;
+        justify-content: center;
+
+    }
+}
